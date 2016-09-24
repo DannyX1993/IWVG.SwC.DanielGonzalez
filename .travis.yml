@@ -1,0 +1,16 @@
+language: java
+
+jdk:
+  - oraclejdk8
+  
+branches:
+  only:
+    - master
+    - develop
+    
+notifications:
+  email:
+    recipients:
+      - daniel.gonzalez.antona@alumnos.upm.es
+      
+script: mvn verify
