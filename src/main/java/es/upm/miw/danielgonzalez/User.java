@@ -25,6 +25,10 @@ public class User {
     public String getName() {
         return this.name;
     }
+    
+    public String getUpperCaseName() {
+    	// Método a implementar
+    }
 
     public String getFamilyName() {
         return this.familyName;

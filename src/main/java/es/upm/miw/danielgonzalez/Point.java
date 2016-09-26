@@ -23,6 +23,14 @@ public class Point {
     public int getY() {
         return this.y;
     }
+    
+    public void setX(int x) {
+    	// Método a implementar
+    }
+    
+    public void setY(int y) {
+    	// Método a implementar
+    }
 
     public double module() {
         return Math.sqrt(this.x * this.x + this.y * this.y);
