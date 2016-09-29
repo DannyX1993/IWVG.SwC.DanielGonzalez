@@ -82,4 +82,20 @@ public class Fraction {
     	}
     }
     
+    public boolean isMayor(Fraction f){
+    	if(((double)this.numerator/this.denominator)>((double)f.getNumerator()/f.getDenominator())){
+    		return true;
+    	}else{
+    		return false;
+    	}   	
+    }
+    
+    public boolean isMenor(Fraction f){
+    	if(((double)this.numerator/this.denominator)<((double)f.getNumerator()/f.getDenominator())){
+    		return true;
+    	}else{
+    		return false;
+    	}   	
+    }
+    
 }
