@@ -60,25 +60,4 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
-    public boolean isPropia() {
-    	// Método a implementar
-    }
-    
-    public boolean isImpropia() {
-    	// Método a implementar
-    }
-    
-    public boolean isEquivalente(Fraction f) {
-    	// Método a implementar
-    }
-    
-    public boolean isMayor(Fraction f) {
-    	// Método a implementar
-    }
-    
-    public boolean isMenor(Fraction f) {
-    	// Método a implementar
-    }
-    
-    
 }

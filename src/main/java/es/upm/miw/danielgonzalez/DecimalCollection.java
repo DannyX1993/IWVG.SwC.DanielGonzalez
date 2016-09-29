@@ -34,9 +34,5 @@ public class DecimalCollection {
         }
         return higher;
     }
-    
-    public double average() {
-    	// Método a implementar
-    }
 
 }
