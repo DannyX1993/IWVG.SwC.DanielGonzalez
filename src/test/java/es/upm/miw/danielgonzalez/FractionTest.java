@@ -48,8 +48,7 @@ public class FractionTest {
 		assertTrue(f.isPropia());
 		
 		f = new Fraction(4, 3);
-		assertFalse(f.isImpropia());
-	
+		assertFalse(f.isPropia());
 	}
 	
 	@Test
