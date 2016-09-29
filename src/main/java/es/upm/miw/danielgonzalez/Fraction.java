@@ -66,4 +66,20 @@ public class Fraction {
     	 return aux1 == aux2;
     }
     
+    public boolean isPropia(){
+    	if(this.numerator<this.denominator){
+    		return true;
+    	}else{
+    		return false;
+    	}
+    }
+    
+    public boolean isImpropia(){
+    	if(this.numerator>this.denominator){
+    		return true;
+    	}else{
+    		return false;
+    	}
+    }
+    
 }
