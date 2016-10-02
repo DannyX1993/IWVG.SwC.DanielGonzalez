@@ -93,5 +93,14 @@ public class FractionTest {
 		f2 = new Fraction(1, 5);
 		assertFalse(f.isMenor(f2));
 	}
+	
+	@Test
+	public void testMult() {
+		f = new Fraction(2, 3);
+		Fraction f2 = new Fraction(3,4);
+		Fraction result = f.mult(f2);
+		assertEquals(6, result.getNumerator());
+		assertEquals(12, result.getDenominator());
+	}
 
 }
