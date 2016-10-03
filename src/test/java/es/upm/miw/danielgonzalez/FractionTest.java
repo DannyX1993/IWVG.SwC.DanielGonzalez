@@ -95,4 +95,11 @@ public class FractionTest {
 		assertFalse(f.isMenor(f2));
 	}
 
+	 @Test
+	    public void testMultiplicar(){
+	    	Fraction f = new Fraction (1,2);
+	    	assertEquals(10, integerFraction.multiplicar(f).getNumerator());
+	    	assertEquals(4, integerFraction.multiplicar(f).getDenominator());
+	    }
+	
 }
