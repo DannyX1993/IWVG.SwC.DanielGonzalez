@@ -60,10 +60,51 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+<<<<<<< HEAD
     public Fraction multiplicar (Fraction f){
     	Fraction aux = new Fraction();
     	aux.numerator = this.numerator * f.numerator;
     	aux.denominator = this.denominator * f.denominator;
     	return aux;
     }
+=======
+    public boolean isEquivalente(Fraction f){
+    	 double aux1 = this.numerator * f.getDenominator();
+    	 double aux2 = this.denominator * f.getNumerator();
+    	 return aux1 == aux2;
+    }
+    
+    public boolean isPropia(){
+    	if(this.numerator<this.denominator){
+    		return true;
+    	}else{
+    		return false;
+    	}
+    }
+    
+    public boolean isImpropia(){
+    	if(this.numerator>this.denominator){
+    		return true;
+    	}else{
+    		return false;
+    	}
+    }
+    
+    public boolean isMayor(Fraction f){
+    	if(((double)this.numerator/this.denominator)>((double)f.getNumerator()/f.getDenominator())){
+    		return true;
+    	}else{
+    		return false;
+    	}   	
+    }
+    
+    public boolean isMenor(Fraction f){
+    	if(((double)this.numerator/this.denominator)<((double)f.getNumerator()/f.getDenominator())){
+    		return true;
+    	}else{
+    		return false;
+    	}   	
+    }
+    
+>>>>>>> refs/remotes/origin/develop
 }
