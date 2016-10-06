@@ -98,4 +98,8 @@ public class Fraction {
     	}   	
     }
     
+    public Fraction mult(Fraction f) {
+    	return new Fraction(numerator * f.getNumerator(), denominator * f.getDenominator());
+    }
+    
 }
